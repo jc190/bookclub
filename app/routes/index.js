@@ -17,13 +17,13 @@ module.exports = function (app, passport) {
 
 	app.route('/')
 		.get(isLoggedIn, function (req, res) {
-			res.render('index');
+			res.render('index', { title: 'Home', user: req.user });
 			// res.sendFile(path + '/public/index.html');
 		});
 
 	app.route('/login')
 		.get(function (req, res) {
-			res.render('login');
+			res.render('login', { title: 'Login' });
 			// res.sendFile(path + '/public/login.html');
 		});
 
@@ -35,7 +35,13 @@ module.exports = function (app, passport) {
 
 	app.route('/profile')
 		.get(isLoggedIn, function (req, res) {
-			res.sendFile(path + '/public/profile.html');
+			res.render('profile', { title: 'My Books', user: req.user });
+			// res.sendFile(path + '/public/profile.html');
+		});
+
+	app.route('/settings')
+		.get(isLoggedIn, function (req, res) {
+			res.render('settings', { title: 'Profile Settings', user: req.user });
 		});
 
 	app.route('/api/:id')

@@ -9,7 +9,7 @@ var session = require('express-session');
 var app = express();
 require('dotenv').load();
 require('./app/config/passport')(passport);
-// mongoose.connect(`mongodb://${process.env.DB_USER}:${encodeURIComponent(process.env.DB_PASSWORD)}@ds139619.mlab.com:39619/book_club`);
+mongoose.connect(`mongodb://${process.env.DB_USER}:${encodeURIComponent(process.env.DB_PASSWORD)}@ds139619.mlab.com:39619/book_club`);
 mongoose.Promise = global.Promise;
 
 app.set('views', './views');
