@@ -17,12 +17,14 @@ module.exports = function (app, passport) {
 
 	app.route('/')
 		.get(isLoggedIn, function (req, res) {
-			res.sendFile(path + '/public/index.html');
+			res.render('index');
+			// res.sendFile(path + '/public/index.html');
 		});
 
 	app.route('/login')
 		.get(function (req, res) {
-			res.sendFile(path + '/public/login.html');
+			res.render('login');
+			// res.sendFile(path + '/public/login.html');
 		});
 
 	app.route('/logout')
