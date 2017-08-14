@@ -1,0 +1,34 @@
+html, body {
+  min-width: 320px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.break {
+  height: 10px;
+}
+
+.hero {
+  background-color: #4393B9;
+  height: 200px;
+}
+
+.navbar-toggler {
+    cursor: pointer;
+}
+
+.paddingLeft {
+  padding-left: 10px;
+}
+
+.test {
+  background-color: #999;
+  color: #fff;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}

@@ -8,15 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- viewport meta tag to properly size various devices -->
 
-  <style>
-    a {
-      text-decoration: none;
-    }
-  </style>
-
 </head>
 
 <body>
+
+  <!-- to offset what's "underneathe" the navbar -->
+  <div style="height: 56px;"></div>
 
   <nav class="navbar navbar-toggleable-sm navbar-light bg-faded fixed-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,27 +43,31 @@
     </div>
   </nav>
 
-  <h1>Book Trading Club</h1>
-  <h4>Books, bacon, subtitles</h4>
-  <i class="fa fa-book fa-3x" aria-hidden="true"></i>
+  <!-- Hero section -->
+  <div class="hero d-flex flex-column align-items-center justify-content-around">
+    <h2 style="color: #fff;">Book Trading Club</h2>
+    <i class="fa fa-book fa-3x fa-inverse" aria-hidden="true"></i>
+  </div>
 
   <div style="height: 40px;"></div>
 
-  <h2>Features</h2>
-  <ul>
-    <a href="#">
-      <ol>Catalogue your books online</ol>
-    </a>
-    <a href="#">
-      <ol>See all of the books our users own</ol>
-    </a>
-    <a href="#">
-      <ol>Request to borrow other users' books</ol>
-    </a>
-    <a href="#">
-      <ol>Easily manage books and requests from your dashboard</ol>
-    </a>
-  </ul>
+
+  <!-- features section -->
+  <div class="d-flex justify-content-center">
+    <h2 class="paddingLeft">Features</h2>
+  </div>
+
+  <div class="break"></div>
+
+  <div class="d-flex flex-column align-items-center justify-content-around" style="height: 150px;">
+    <div><a href="#">Catalogue your books online</a></div>
+    <div><a href="#">See all of the books our users own</a></div>
+    <div><a href="#">Request to borrow other users' books</a></div>
+    <div class="hidden-xs-down"><a href="#">Easily manage books and requests from your dashboard</a></div>
+    <div class="hidden-sm-up"><a href="#">Manage books and requests</a></div>
+  </div>
+
+  <!-- imports -->
 
   <!-- Bootstrap cdn -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -78,6 +79,9 @@
 
   <!-- font awesome icons cdn -->
   <script src="https://use.fontawesome.com/9d6d1d49a5.js"></script>
+
+  <!-- home page external SS -->
+  <link rel="stylesheet" type="text/css" href="/public/css/home.css" />
 
 </body>
 
