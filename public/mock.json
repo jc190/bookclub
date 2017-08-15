@@ -1,0 +1,866 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 471,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "FNxGvn1SCVMC",
+            "etag": "5iJ9DQuMdhg",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/FNxGvn1SCVMC",
+            "volumeInfo": {
+                "title": "Carrie",
+                "authors": [
+                    "Stephen King"
+                ],
+                "publisher": "Anchor",
+                "publishedDate": "2008-06-24",
+                "description": "Stephen King's legendary debut, about a teenage outcast and the revenge she enacts on her classmates. Carrie White may be picked on by her classmates, but she has a gift. She can move things with her mind. Doors lock. Candles fall. This is her power and her problem. Then, an act of kindness, as spontaneous as the vicious taunts of her classmates, offers Carrie a chance to be a normal...until an unexpected cruelty turns her gift into a weapon of horror and destruction that no one will ever forget.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780385528832"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0385528833"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 192,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 3.5,
+                "ratingsCount": 2503,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.6.7.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=FNxGvn1SCVMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=FNxGvn1SCVMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=FNxGvn1SCVMC&printsec=frontcover&dq=inauthor:Stephen+King&hl=&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=FNxGvn1SCVMC&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-FNxGvn1SCVMC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 7.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 7.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=FNxGvn1SCVMC&rdid=book-FNxGvn1SCVMC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 7990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 7990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Carrie-sample-epub.acsm?id=FNxGvn1SCVMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Carrie-sample-pdf.acsm?id=FNxGvn1SCVMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=FNxGvn1SCVMC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Carrie White may be picked on by her classmates, but she has a gift. She can move things with her mind. Doors lock. Candles fall. This is her power and her problem."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "41LdDgAAQBAJ",
+            "etag": "rZOmzAnCv5Y",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/41LdDgAAQBAJ",
+            "volumeInfo": {
+                "title": "The Mist",
+                "authors": [
+                    "Stephen King"
+                ],
+                "publisher": "Simon and Schuster",
+                "publishedDate": "2017-05-23",
+                "description": "Soon to be a television series on Spike TV #1 New York Times bestselling author Stephen King’s terrifying novella about a town engulfed in a dense, mysterious mist—as humanity makes its last stand against unholy destruction… In the wake of a destructive Maine summer thunderstorm, an impenetrable mist descends from the direction of a local military facility and infiltrates the small town of Bridgton. David Drayton and his son Billy are dragged into a living nightmare as unnatural and violent forces concealed by the mist begin to emerge, wreaking havoc in their wake. Now trapped in the local supermarket with a ragtag group of survivors, David unexpectedly faces a growing threat from within, one that promises to challenge the boundaries of sanity itself. In this horrifying mist, hearing is seeing—and believing. And what you’re about to hear, you’ll never forget. Originally published in his acclaimed collection, Skeleton Crew, this riveting, eerie novella proves why Stephen King is a master storyteller in short form.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781501176241"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1501176242"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 176,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.1.1.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=41LdDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=41LdDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=41LdDgAAQBAJ&printsec=frontcover&dq=inauthor:Stephen+King&hl=&cd=2&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=41LdDgAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-41LdDgAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 3.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 3.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=41LdDgAAQBAJ&rdid=book-41LdDgAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 3990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 3990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/The_Mist-sample-epub.acsm?id=41LdDgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=41LdDgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Soon to be a television series on Spike TV #1 New York Times bestselling author Stephen King’s terrifying novella about a town engulfed in a dense, mysterious mist—as humanity makes its last stand against unholy destruction… In the ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Qbm5ejIoY5sC",
+            "etag": "6qdGQ/zGt6E",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Qbm5ejIoY5sC",
+            "volumeInfo": {
+                "title": "Stephen King Goes to the Movies",
+                "authors": [
+                    "Stephen King"
+                ],
+                "publisher": "Simon and Schuster",
+                "publishedDate": "2009-01-20",
+                "description": "A collection of five short stories that have been made into movies includes \"The Mangler,\" in which a skeptical writer investigates a supposedly haunted hotel room that has apparently caused at least forty-two deaths.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781416592365"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1416592369"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 626,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 3.5,
+                "ratingsCount": 10,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Qbm5ejIoY5sC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Qbm5ejIoY5sC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=Qbm5ejIoY5sC&pg=PA134&dq=inauthor:Stephen+King&hl=&cd=3&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=Qbm5ejIoY5sC&dq=inauthor:Stephen+King&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Stephen_King_Goes_to_the_Movies.html?hl=&id=Qbm5ejIoY5sC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Qbm5ejIoY5sC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Stephen <b>King</b>. “Yeah.” “Was it good?” “Yeah.” S-J shook his head. “I never met a <br>\nbook I really liked, but I&#39;ll take your word for it.” “How was the concert?” Sully <br>\nshrugged. “We blew til everyone went away, so I guess it was good for us, <br>\nanyway."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "DQTgAAAAQBAJ",
+            "etag": "lC3QX+Ib5zs",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/DQTgAAAAQBAJ",
+            "volumeInfo": {
+                "title": "Doctor Sleep",
+                "subtitle": "A Novel",
+                "authors": [
+                    "Stephen King"
+                ],
+                "publisher": "Simon and Schuster",
+                "publishedDate": "2013-09-24",
+                "description": "After decades as an itinerant alcoholic, middle-aged Dan Torrance uses his remnant powers to assist the dying before coming to the aid of a twelve-year-old girl being tortured by a tribe of murderous paranormals.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781476727653"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1476727651"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 531,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 4,
+                "ratingsCount": 3718,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.0.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=DQTgAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=DQTgAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=DQTgAAAAQBAJ&printsec=frontcover&dq=inauthor:Stephen+King&hl=&cd=4&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=DQTgAAAAQBAJ&dq=inauthor:Stephen+King&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Doctor_Sleep.html?hl=&id=DQTgAAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=DQTgAAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "After decades as an itinerant alcoholic, middle-aged Dan Torrance uses his remnant powers to assist the dying before coming to the aid of a twelve-year-old girl being tortured by a tribe of murderous paranormals."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "d999Z2KbZJYC",
+            "etag": "BuOSyIPoqdY",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/d999Z2KbZJYC",
+            "volumeInfo": {
+                "title": "On Writing",
+                "authors": [
+                    "Stephen King"
+                ],
+                "publisher": "Simon and Schuster",
+                "publishedDate": "2002-06-25",
+                "description": "The author shares his insights into the craft of writing and offers a humorous perspective on his own experience as a writer.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780743455961"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0743455967"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 297,
+                "printType": "BOOK",
+                "categories": [
+                    "Biography & Autobiography"
+                ],
+                "averageRating": 4.5,
+                "ratingsCount": 3500,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.0.0.preview.0",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=d999Z2KbZJYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=d999Z2KbZJYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=d999Z2KbZJYC&printsec=frontcover&dq=inauthor:Stephen+King&hl=&cd=5&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=d999Z2KbZJYC&dq=inauthor:Stephen+King&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/On_Writing.html?hl=&id=d999Z2KbZJYC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=d999Z2KbZJYC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The author shares his insights into the craft of writing and offers a humorous perspective on his own experience as a writer."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "7-yaTsamwHQC",
+            "etag": "IFKP9x/zqC4",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/7-yaTsamwHQC",
+            "volumeInfo": {
+                "title": "It",
+                "subtitle": "2",
+                "authors": [
+                    "Stephen King"
+                ],
+                "publisher": "Signet",
+                "publishedDate": "1987-08-07",
+                "description": "Seven men and women return to their hometown to face the horror they fled from when they were teenagers. Copyright © Libri GmbH. All rights reserved.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0451159276"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780451159274"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 1093,
+                "printType": "BOOK",
+                "categories": [
+                    "Good and evil"
+                ],
+                "averageRating": 3.5,
+                "ratingsCount": 3,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=7-yaTsamwHQC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=7-yaTsamwHQC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=7-yaTsamwHQC&q=inauthor:Stephen+King&dq=inauthor:Stephen+King&hl=&cd=6&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=7-yaTsamwHQC&dq=inauthor:Stephen+King&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/It.html?hl=&id=7-yaTsamwHQC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=7-yaTsamwHQC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Seven men and women return to their hometown to face the horror they fled from when they were teenagers. Copyright © Libri GmbH. All rights reserved."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Rs1WbPRa3LoC",
+            "etag": "6tO8jQYE3MI",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Rs1WbPRa3LoC",
+            "volumeInfo": {
+                "title": "Danse Macabre",
+                "authors": [
+                    "Stephen King"
+                ],
+                "publisher": "Simon and Schuster",
+                "publishedDate": "2011-03-01",
+                "description": "From the author of dozens of #1 New York Times bestsellers and the creator of many unforgettable movies comes a vivid, intelligent, and nostalgic journey through three decades of horror as experienced through the eyes of the most popular writer in the genre. In 1981, years before he sat down to tackle On Writing, Stephen King decided to address the topic of what makes horror horrifying and what makes terror terrifying. Here, in ten brilliantly written chapters, King delivers one colorful observation after another about the great stories, books, and films that comprise the horror genre—from Frankenstein and Dracula to The Exorcist, The Twilight Zone, and Earth vs. The Flying Saucers. With the insight and good humor his fans appreciated in On ?Writing , Danse Macabre is an enjoyably entertaining tour through Stephen King’s beloved world of horror.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781439171165"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1439171165"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 464,
+                "printType": "BOOK",
+                "categories": [
+                    "Literary Collections"
+                ],
+                "averageRating": 3.5,
+                "ratingsCount": 32,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.3.3.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Rs1WbPRa3LoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Rs1WbPRa3LoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=Rs1WbPRa3LoC&printsec=frontcover&dq=inauthor:Stephen+King&hl=&cd=7&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=Rs1WbPRa3LoC&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-Rs1WbPRa3LoC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=Rs1WbPRa3LoC&rdid=book-Rs1WbPRa3LoC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 9990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 9990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Danse_Macabre-sample-epub.acsm?id=Rs1WbPRa3LoC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Rs1WbPRa3LoC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Here, in ten brilliantly written chapters, King delivers one colorful observation after another about the great stories, books, and films that comprise the horror genre—from Frankenstein and Dracula to The Exorcist, The Twilight Zone, and ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "t-ArDgAAQBAJ",
+            "etag": "OaTwMEUniXw",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/t-ArDgAAQBAJ",
+            "volumeInfo": {
+                "title": "Misery",
+                "subtitle": "A Novel",
+                "authors": [
+                    "Stephen King"
+                ],
+                "publisher": "Simon and Schuster",
+                "publishedDate": "2017-02-28",
+                "description": "Originally published: New York: Viking, 1987.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781501156748"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1501156748"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 432,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.0.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=t-ArDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=t-ArDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=t-ArDgAAQBAJ&printsec=frontcover&dq=inauthor:Stephen+King&hl=&cd=8&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=t-ArDgAAQBAJ&dq=inauthor:Stephen+King&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Misery.html?hl=&id=t-ArDgAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=t-ArDgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Originally published: New York: Viking, 1987."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "pQcKF2H80VEC",
+            "etag": "xjHP/c43l9s",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/pQcKF2H80VEC",
+            "volumeInfo": {
+                "title": "A Face in the Crowd",
+                "authors": [
+                    "Stephen King",
+                    "Stewart O'Nan"
+                ],
+                "publisher": "Simon and Schuster",
+                "publishedDate": "2012-08-21",
+                "description": "The writing team that delivered the bestselling Faithful, about the 2004 Red Sox championship season, takes readers to the ballpark again, and to a world beyond, in an eBook original to be published on August 21, 2012. Dean Evers, an elderly widower, sits in front of the television with nothing better to do than waste his leftover evenings watching baseball. It’s Rays/Mariners, and David Price is breezing through the line-up. Suddenly, in a seat a few rows up beyond the batter, Evers sees the face of someone from decades past, someone who shouldn’t be at the ballgame, shouldn’t be on the planet. And so begins a parade of people from Evers’s past, all of them occupying that seat behind home plate. Until one day Dean Evers sees someone even eerier….",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781476713342"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1476713340"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 50,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 3,
+                "ratingsCount": 36,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.6.6.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=pQcKF2H80VEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=pQcKF2H80VEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=pQcKF2H80VEC&printsec=frontcover&dq=inauthor:Stephen+King&hl=&cd=9&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=pQcKF2H80VEC&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-pQcKF2H80VEC"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 1.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 1.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=pQcKF2H80VEC&rdid=book-pQcKF2H80VEC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 1990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 1990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/A_Face_in_the_Crowd-sample-epub.acsm?id=pQcKF2H80VEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=pQcKF2H80VEC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The writing team that delivered the bestselling Faithful, about the 2004 Red Sox championship season, takes readers to the ballpark again, and to a world beyond, in an eBook original to be published on August 21, 2012."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "y0L2B1E8w74C",
+            "etag": "XBqAiSMLE18",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/y0L2B1E8w74C",
+            "volumeInfo": {
+                "title": "Cell",
+                "subtitle": "A Novel",
+                "authors": [
+                    "Stephen King"
+                ],
+                "publisher": "Simon and Schuster",
+                "publishedDate": "2006-01-24",
+                "description": "From international bestseller Stephen King, a high-concept, ingenious and terrifying story about the mayhem unleashed when a pulse from a mysterious source transforms all cell phone users into homicidal maniacs. There’s a reason cell rhymes with hell. On October 1, God is in His heaven, the stock market stands at 10,140, most of the planes are on time, and Clayton Riddell, an artist from Maine, is almost bouncing up Boylston Street in Boston. He’s just landed a comic book deal that might finally enable him to support his family by making art instead of teaching it. He’s already picked up a small (but expensive!) gift for his long-suffering wife, and he knows just what he’ll get for his boy Johnny. Why not a little treat for himself? Clay’s feeling good about the future. That changes in a hurry. The cause of the devastation is a phenomenon that will come to be known as The Pulse, and the delivery method is a cell phone. Everyone’s cell phone. Clay and the few desperate survivors who join him suddenly find themselves in the pitch-black night of civilization’s darkest age, surrounded by chaos, carnage, and a human horde that has been reduced to its basest nature...and then begins to evolve. There’s really no escaping this nightmare. But for Clay, an arrow points home to Maine, and as he and his fellow refugees make their harrowing journey north they begin to see crude signs confirming their direction. A promise, perhaps. Or a threat... There are 193 million cell phones in the United States alone. Who doesn’t have one? Stephen King’s utterly gripping, gory, and fascinating novel doesn’t just ask the question “Can you hear me now?” It answers it with a vengeance.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780743296724"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0743296729"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 384,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 3,
+                "ratingsCount": 3447,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "2.10.10.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=y0L2B1E8w74C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=y0L2B1E8w74C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=y0L2B1E8w74C&printsec=frontcover&dq=inauthor:Stephen+King&hl=&cd=10&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=y0L2B1E8w74C&source=gbs_api",
+                "canonicalVolumeLink": "https://market.android.com/details?id=book-y0L2B1E8w74C"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 8.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=y0L2B1E8w74C&rdid=book-y0L2B1E8w74C&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 9990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 8990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Cell-sample-epub.acsm?id=y0L2B1E8w74C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=y0L2B1E8w74C&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "From international bestseller Stephen King, a high-concept, ingenious and terrifying story about the mayhem unleashed when a pulse from a mysterious source transforms all cell phone users into homicidal maniacs."
+            }
+        }
+    ]
+}
