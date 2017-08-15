@@ -2,26 +2,105 @@
 
 <html>
 
-	<head>
-		<title>Clementine.js - The elegant and lightweight full stack JavaScript boilerplate.</title>
-		
-		<link href="/public/css/main.css" rel="stylesheet" type="text/css">
-	</head>
+<head>
+  <title>Book Trading Club Home</title>
 
-	<body>
-		<div class="container">	
-			<div class="login">
-				<img src="/public/img/clementine_150.png" />
-				<br />
-				<p class="clementine-text">Clementine.js</p>
-				<a href="/auth/github">
-					<div class="btn" id="login-btn">
-						<img src="/public/img/github_32px.png" alt="github logo" />
-						<p>LOGIN WITH GITHUB</p>
-					</div>
-				</a>
-			</div>
-		</div>
-	</body>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- viewport meta tag to properly size various devices -->
+
+</head>
+
+<body>
+
+  <!-- to offset what's "underneathe" the navbar -->
+  <div style="height: 56px;"></div>
+
+  <nav class="navbar navbar-toggleable-sm navbar-light bg-faded fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav d-flex justify-content-around" style="width: 100%;">
+
+        <div class="d-md-flex">
+          <li class="nav-item">
+            <div class="navbar-brand" href="#">Bookjump</div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+        </div>
+
+        <div class="d-md-flex">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero section -->
+  <div class="hero d-flex flex-column align-items-center justify-content-around">
+    <h2 style="color: #fff;">Book Trading Club</h2>
+    <i class="fa fa-book fa-3x fa-inverse" aria-hidden="true"></i>
+  </div>
+
+  <div style="height: 40px;"></div>
+
+  <form>
+    <div class="d-flex flex-column align-items-center justify-content-center">
+      <div>
+        Username: <input type="text">
+      </div>
+      <div style="height: 10px;"></div>
+      <div>
+        Password: <input type="text">
+      </div>
+      <div style="height: 10px;"></div>
+      <div class="d-flex">
+        <button class="btn btn-primary" type="reset">Reset</button>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </div>
+    </div>
+  </form>
+
+  <div class="container">
+    <div class="login">
+      <a href="/auth/github">
+        <div class="btn" id="login-btn">
+          <img src="/public/img/github_32px.png" alt="github logo" />
+          <p>LOGIN WITH GITHUB</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+
+  <!-- imports -->
+
+  <!-- Bootstrap cdn -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+  <!-- bootstrap stylesheet cdn -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+  <!-- font awesome icons cdn -->
+  <script src="https://use.fontawesome.com/9d6d1d49a5.js"></script>
+
+  <!-- home page external SS -->
+  <link rel="stylesheet" type="text/css" href="/public/css/home.css" />
+
+  <!-- main css external SS -->
+  <link rel="stylesheet" type="text/css" href="/public/css/main.css" />
+
+
+</body>
 
 </html>
