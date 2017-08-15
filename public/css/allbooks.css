@@ -1,0 +1,14 @@
+body {
+  padding-top: 6rem;
+}
+
+.request-wrapper {
+  margin-bottom: 2rem;
+}
+
+.btn-request {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  transform: translateY(-50%) translateX(50%);
+}
