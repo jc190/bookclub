@@ -1,5 +1,20 @@
 extends components/layout.pug
 
 block content
+  .spacer
   div.container
-    h1= 'User profile - My Books'
+    h1= 'Dashboard'
+    hr
+    h2= 'Requests'
+    hr
+    include components/requests.pug
+    .spacer
+    h2= 'My Books'
+    hr
+    p.lead= 'Add a book'
+    include components/addBook.pug
+    .spacer
+    #allbooks
+block append scripts
+  script(src='common/ajax-functions.js')
+  script(src='controllers/allBooks.client.js')
