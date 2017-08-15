@@ -27,6 +27,12 @@ module.exports = function (app, passport) {
 			// res.sendFile(path + '/public/login.html');
 		});
 
+	app.route('/signup')
+		.get(function (req, res) {
+			res.render('signup', { title: 'Sign up' });
+			// res.sendFile(path + '/public/login.html');
+		});
+
 	app.route('/logout')
 		.get(function (req, res) {
 			req.logout();
@@ -36,6 +42,12 @@ module.exports = function (app, passport) {
 	app.route('/profile')
 		.get(isLoggedIn, function (req, res) {
 			res.render('profile', { title: 'My Books', user: req.user });
+			// res.sendFile(path + '/public/profile.html');
+		});
+
+	app.route('/library')
+		.get(isLoggedIn, function (req, res) {
+			res.render('library', { title: 'All Books', user: req.user });
 			// res.sendFile(path + '/public/profile.html');
 		});
 
