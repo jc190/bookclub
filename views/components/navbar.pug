@@ -1,6 +1,6 @@
-nav.navbar.navbar-expand-lg.navbar-light.bg-light.mb-3
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
   div.container
-    a.navbar-brand(href='#') Bookclub
+    a.navbar-brand(href='/') Bookclub
     button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
       span.navbar-toggler-icon
     #navbarSupportedContent.collapse.navbar-collapse
@@ -19,7 +19,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.mb-3
       ul.navbar-nav.ml-auto
         if user
           li.nav-item
-            a.nav-link(href='#') All Books
+            a.nav-link(href='/library') All Books
           li.nav-item
             a.nav-link(href='/profile') My Books
           li.nav-item
@@ -30,4 +30,4 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.mb-3
           li.nav-item
             a.nav-link(href='/login') Login
           li.nav-item
-            a.nav-link(href='#') Register
+            a.nav-link(href='/signup') Sign-up
