@@ -1,0 +1,21 @@
+extends components/layout.pug
+
+block content
+  .spacer
+  div.container
+    h1.mt-5= 'Sign up'
+    hr
+    form
+      .form-group
+        label(for='name') Name
+        input.form-control(type='text')
+      .form-group
+        label(for='emailaddress') Email address
+        input.form-control(type='email')
+      .form-group
+        label(for='password') Password
+        input.form-control(type='password')
+      .form-group
+        label(for='password') Confirm password
+        input.form-control(type='password')
+      button.btn.btn-primary(type='submit') Register
