@@ -78,7 +78,7 @@ header a ~ p {
 /****** Login Styling ******/
 
 .login {
-	margin: 86px auto 0 auto;
+	margin: 45px auto 0 auto;
 	text-align: center;
 }
 
@@ -137,7 +137,7 @@ img {
 }
 
 .btn:active {	/* Scale the button down by 10% when clicking on button */
-	transform: scale(0.9, 0.9);
+	transform: scale(0.75, 0.75);
 	-webkit-transform: scale(0.9, 0.9);
 	-moz-transform: scale(0.9, 0.9);
 }
