@@ -12,7 +12,8 @@ a {
 
 .hero {
   background-color: #4393B9;
-  height: 200px;
+  color: #FFF;
+  /*height: 200px;*/
 }
 
 .navbar-toggler {
@@ -31,4 +32,12 @@ a {
 ul {
   padding: 0;
   margin: 0;
+}
+
+.feature-list li {
+  margin-bottom: 1rem;
+}
+
+.btn-outline-light:hover {
+  color: #4393B9;
 }
