@@ -2,6 +2,10 @@ html, body {
   min-width: 320px;
 }
 
+body {
+  margin-top: 3.5rem;
+}
+
 a {
   text-decoration: none !important;
 }
