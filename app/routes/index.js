@@ -37,7 +37,7 @@ module.exports = function (app, passport) {
 		});
 
 	app.route('/allbooks')
-		.get(function (req, res) {
+		.get(isLoggedIn, function (req, res) {
 			res.sendFile(path + '/public/allbooks.html');
 		});
 
@@ -59,7 +59,7 @@ module.exports = function (app, passport) {
 		.get(isLoggedIn, clickHandler.getClicks)
 		.post(isLoggedIn, clickHandler.addClick)
 		.delete(isLoggedIn, clickHandler.resetClicks);
-		
+
 	app.route('/test/home')
 		.get((req, res) => {
 			res.sendFile(path + '/public/home.html');
