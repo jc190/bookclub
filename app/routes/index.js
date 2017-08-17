@@ -37,7 +37,7 @@ module.exports = function (app, passport) {
 		});
 
 	app.route('/allbooks')
-		.get(function (req, res) {
+		.get(isLoggedIn, function (req, res) {
 			res.sendFile(path + '/public/allbooks.html');
 		});
 
