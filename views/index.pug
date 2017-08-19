@@ -1,9 +1,15 @@
 extends components/layout.pug
 
 block content
-  .jumbotron.jumbotron-fluid
-    .container
-      h1.display-3 Fluid jumbotron
-      p.lead This is a modified jumbotron that occupies the entire horizontal space of its parent.
-  div.container
-    h1= 'This is the home page'
+  include components/hero.pug
+  .container
+    h2.text-center.mb-3 Features
+    ul.list-unstyled.feature-list.text-center.mb-5
+      li
+        a(href='#') Catalogue your books online
+      li
+        a(href='#') See all of the books our users own
+      li
+        a(href='#') Request to borrow other users' books
+      li
+        a(href='#') Easily manage books and requests from your dashboard

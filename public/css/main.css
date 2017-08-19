@@ -216,3 +216,9 @@ span {
 	display: inline;
 	margin: 0;
 }
+
+/***** Hero styling *******/
+.hero {
+  background-color: #4393B9;
+  color: #FFF;
+}
