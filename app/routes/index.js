@@ -17,12 +17,19 @@ module.exports = function (app, passport) {
 
 	app.route('/')
 		.get(isLoggedIn, function (req, res) {
-			res.sendFile(path + '/public/home.html');
+			res.render('index', { title: 'Home', user: req.user });
 		});
 
 	app.route('/login')
 		.get(function (req, res) {
-			res.sendFile(path + '/public/login.html');
+			res.render('login', { title: 'Login' });
+			// res.sendFile(path + '/public/login.html');
+		});
+
+	app.route('/signup')
+		.get(function (req, res) {
+			res.render('signup', { title: 'Sign up' });
+			// res.sendFile(path + '/public/login.html');
 		});
 
 	app.route('/logout')
@@ -33,7 +40,19 @@ module.exports = function (app, passport) {
 
 	app.route('/profile')
 		.get(isLoggedIn, function (req, res) {
-			res.sendFile(path + '/public/profile.html');
+			res.render('profile', { title: 'My Books', user: req.user });
+			// res.sendFile(path + '/public/profile.html');
+		});
+
+	app.route('/library')
+		.get(isLoggedIn, function (req, res) {
+			res.render('library', { title: 'All Books', user: req.user });
+			// res.sendFile(path + '/public/profile.html');
+		});
+
+	app.route('/settings')
+		.get(isLoggedIn, function (req, res) {
+			res.render('settings', { title: 'Profile Settings', user: req.user });
 		});
 
 	app.route('/allbooks')
