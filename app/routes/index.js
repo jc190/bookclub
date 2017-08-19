@@ -38,26 +38,21 @@ module.exports = function (app, passport) {
 			res.redirect('/login');
 		});
 
-	app.route('/profile')
+	app.route('/dashboard')
 		.get(isLoggedIn, function (req, res) {
-			res.render('profile', { title: 'My Books', user: req.user });
+			res.render('dashboard', { title: 'Dashboard', user: req.user });
 			// res.sendFile(path + '/public/profile.html');
 		});
 
 	app.route('/library')
 		.get(isLoggedIn, function (req, res) {
-			res.render('library', { title: 'All Books', user: req.user });
+			res.render('library', { title: 'Library', user: req.user });
 			// res.sendFile(path + '/public/profile.html');
 		});
 
 	app.route('/settings')
 		.get(isLoggedIn, function (req, res) {
 			res.render('settings', { title: 'Profile Settings', user: req.user });
-		});
-
-	app.route('/allbooks')
-		.get(isLoggedIn, function (req, res) {
-			res.sendFile(path + '/public/allbooks.html');
 		});
 
 	app.route('/api/:id')
@@ -79,8 +74,4 @@ module.exports = function (app, passport) {
 		.post(isLoggedIn, clickHandler.addClick)
 		.delete(isLoggedIn, clickHandler.resetClicks);
 
-	app.route('/test/home')
-		.get((req, res) => {
-			res.sendFile(path + '/public/home.html');
-		});
 };
