@@ -18,7 +18,7 @@
       // Create the HTML elements
       col = createEl('div', { class: 'col-4 col-md-3 col-lg-2 mb-4' });
       image = createEl('img', { src: book.volumeInfo.imageLinks.thumbnail, class: 'w-100' });
-      if (appUrl === '/profile') {
+      if (appUrl === '/dashboard') {
         button = createEl('a', { href: '#', class: 'btn-sm btn-danger btn-request ml-3' });
         icon = createEl('i', { class: 'fa fa-times' });
       } else {
