@@ -10,7 +10,7 @@ block content
     h1= 'Dashboard'
     .spacer
     #dashboard-nav
-      ul.nav.nav-tabs.mb-5
+      ul.nav.nav-tabs.mb-3
         li.nav-item
           a.nav-link.active(href='#tab-1') My Books
         li.nav-item
@@ -18,6 +18,8 @@ block content
         li.nav-item
           a.nav-link(href='#tab-3') Trade requests for you
       #tab-1
+        include components/addBook.pug
+        .spacer
         #allbooks
       #tab-2
         p
