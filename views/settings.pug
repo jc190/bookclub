@@ -1,0 +1,30 @@
+extends components/layout.pug
+
+block content
+  .spacer
+  div.container
+    h1= 'User Settings'
+    hr
+    .spacer
+    h2= 'Update Profile'
+    form
+      .form-group
+        label(for='userCity') City
+        input.form-control(type='text')
+      .form-group
+        label(for='userState') State
+        input.form-control(type='text')
+      button.btn.btn-primary(type='submit') Save changes
+    .spacer
+    h2= 'Update Password'
+    form
+      .form-group
+        label(for='userCity') Old password
+        input.form-control(type='password')
+      .form-group
+        label(for='userState') New password
+        input.form-control(type='password')
+      .form-group
+        label(for='userState') Confirm new password
+        input.form-control(type='password')
+      button.btn.btn-primary(type='submit') Save changes

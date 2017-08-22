@@ -1,0 +1,21 @@
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  div.container
+    a.navbar-brand(href='/') Bookclub
+    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarSupportedContent.collapse.navbar-collapse
+      ul.navbar-nav.ml-auto
+        if user
+          li.nav-item
+            a.nav-link(href='/library') Library
+          li.nav-item
+            a.nav-link(href='/dashboard') Dashboard
+          li.nav-item
+            a.nav-link(href='/settings') Settings
+          li.nav-item
+            a.nav-link(href='/logout') Logout
+        else
+          li.nav-item
+            a.nav-link(href='/signup') Sign Up
+          li.nav-item
+            a.nav-link(href='/login') Login

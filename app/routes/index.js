@@ -17,12 +17,19 @@ module.exports = function (app, passport) {
 
 	app.route('/')
 		.get(isLoggedIn, function (req, res) {
-			res.sendFile(path + '/public/home.html');
+			res.render('index', { title: 'Home', user: req.user });
 		});
 
 	app.route('/login')
 		.get(function (req, res) {
-			res.sendFile(path + '/public/login.html');
+			res.render('login', { title: 'Login' });
+			// res.sendFile(path + '/public/login.html');
+		});
+
+	app.route('/signup')
+		.get(function (req, res) {
+			res.render('signup', { title: 'Sign up' });
+			// res.sendFile(path + '/public/login.html');
 		});
 
 	app.route('/logout')
@@ -31,14 +38,21 @@ module.exports = function (app, passport) {
 			res.redirect('/login');
 		});
 
-	app.route('/profile')
+	app.route('/dashboard')
 		.get(isLoggedIn, function (req, res) {
-			res.sendFile(path + '/public/profile.html');
+			res.render('dashboard', { title: 'Dashboard', user: req.user });
+			// res.sendFile(path + '/public/profile.html');
 		});
 
-	app.route('/allbooks')
+	app.route('/library')
 		.get(isLoggedIn, function (req, res) {
-			res.sendFile(path + '/public/allbooks.html');
+			res.render('library', { title: 'Library', user: req.user });
+			// res.sendFile(path + '/public/profile.html');
+		});
+
+	app.route('/settings')
+		.get(isLoggedIn, function (req, res) {
+			res.render('settings', { title: 'Profile Settings', user: req.user });
 		});
 
 	app.route('/api/:id')
@@ -60,8 +74,4 @@ module.exports = function (app, passport) {
 		.post(isLoggedIn, clickHandler.addClick)
 		.delete(isLoggedIn, clickHandler.resetClicks);
 
-	app.route('/test/home')
-		.get((req, res) => {
-			res.sendFile(path + '/public/home.html');
-		});
 };
