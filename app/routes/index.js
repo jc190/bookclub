@@ -1,6 +1,7 @@
 'use strict';
 
 var path = process.cwd();
+var { check, validationResult } = require('express-validator/check');
 var ClickHandler = require(path + '/app/controllers/clickHandler.server.js');
 
 module.exports = function (app, passport) {
@@ -58,6 +59,11 @@ module.exports = function (app, passport) {
 	app.route('/api/:id')
 		.get(isLoggedIn, function (req, res) {
 			res.json(req.user.github);
+		});
+
+	app.route('/api/books/add')
+		.post(isLoggedIn, [check('bookTitle').exists().escape()],  function (req, res) {
+			
 		});
 
 	app.route('/auth/github')
