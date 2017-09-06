@@ -14,7 +14,6 @@ module.exports = function (passport) {
 			done(err, user);
 		});
 	});
-
 	passport.use(new GitHubStrategy({
 		clientID: configAuth.githubAuth.clientID,
 		clientSecret: configAuth.githubAuth.clientSecret,
