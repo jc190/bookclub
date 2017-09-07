@@ -2,7 +2,6 @@
 
 (function populateAllBooks () {
   var appUrl = window.location.pathname;
-  console.log(appUrl)
   var el = document.getElementById('allbooks');
   var wrapper = createEl('div');
   var row = createEl('div', { class: 'row' });

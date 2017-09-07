@@ -44,14 +44,19 @@ module.exports = function (app, passport) {
 
 	app.route('/dashboard')
 		.get(isLoggedIn, function (req, res) {
-			res.render('dashboard', { title: 'Dashboard', user: req.user });
-			// res.sendFile(path + '/public/profile.html');
+			Users.findOne({ _id: req.user._id }).populate('books.info').exec(function(err, user) {
+				if (err) { throw err };
+				if (user && user.books.length) {
+					res.render('dashboard', { title: 'Dashboard', user: req.user, books: user.books });
+				} else {
+					res.render('dashboard', { title: 'Dashboard', user: req.user });
+				}
+			});
 		});
 
 	app.route('/library')
 		.get(isLoggedIn, function (req, res) {
 			res.render('library', { title: 'Library', user: req.user });
-			// res.sendFile(path + '/public/profile.html');
 		});
 
 	app.route('/settings')
@@ -62,18 +67,6 @@ module.exports = function (app, passport) {
 	app.route('/api/user')
 		.get(isLoggedIn, function (req, res) {
 			res.json(req.user.github);
-		});
-
-	app.route('/api/user/books')
-		.get(isLoggedIn, function (req, res) {
-			Users.findOne({ _id: req.user._id }).populate('books.info').exec(function(err, user) {
-				if (err) { throw err };
-				if (user && user.books) {
-					res.json({ items: user.books });
-				} else {
-					res.json({ items: null });
-				}
-			});
 		});
 
 	app.route('/api/user/books/delete')
