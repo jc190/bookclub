@@ -39,27 +39,27 @@ function BookController () {
             newBook.save(function(err, book) {
               if (err) { throw err };
               // saved!
-              addBookToUser(req.user._id, book);
+              addBookToUser(req.user._id, book, next);
             });
           } else {
             // add book to user's collection
-            addBookToUser(req.user._id, bookInfo);
+            addBookToUser(req.user._id, bookInfo, next);
           }
         });
       });
     });
-    function addBookToUser (userId, book) {
-      Users.findOne({ _id: userId }).exec(function (err, user) {
-        if (err) { throw err }
-        user.books.push({ info: book._id });
-        user.save(function (err) {
-          if (err) { throw err };
-          next();
-        });
-      });
-    }
   }
 }
 
+function addBookToUser (userId, book, cb) {
+  Users.findOne({ _id: userId }).exec(function (err, user) {
+    if (err) { throw err }
+    user.books.push({ info: book._id });
+    user.save(function (err) {
+      if (err) { throw err };
+      cb();
+    });
+  });
+}
 
 module.exports = BookController;
