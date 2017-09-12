@@ -10,9 +10,14 @@ var User = new Schema({
 		username: String,
       publicRepos: Number
 	},
-   nbrClicks: {
-      clicks: Number
-   }
+	books: [
+		{
+			info: { type: Schema.Types.ObjectId, ref: 'Book' }
+		}
+	],
+  nbrClicks: {
+    clicks: Number
+  }
 });
 
 module.exports = mongoose.model('User', User);

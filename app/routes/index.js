@@ -1,7 +1,10 @@
 'use strict';
 
 var path = process.cwd();
+var { check } = require('express-validator/check');
 var ClickHandler = require(path + '/app/controllers/clickHandler.server.js');
+var BookController = require(path + '/app/controllers/bookController.server.js');
+var Users = require('../models/users.js');
 
 module.exports = function (app, passport) {
 
@@ -14,6 +17,7 @@ module.exports = function (app, passport) {
 	}
 
 	var clickHandler = new ClickHandler();
+	var bookController = new BookController();
 
 	app.route('/')
 		.get(isLoggedIn, function (req, res) {
@@ -40,14 +44,19 @@ module.exports = function (app, passport) {
 
 	app.route('/dashboard')
 		.get(isLoggedIn, function (req, res) {
-			res.render('dashboard', { title: 'Dashboard', user: req.user });
-			// res.sendFile(path + '/public/profile.html');
+			Users.findOne({ _id: req.user._id }).populate('books.info').exec(function(err, user) {
+				if (err) { throw err };
+				if (user && user.books.length) {
+					res.render('dashboard', { title: 'Dashboard', user: req.user, books: user.books });
+				} else {
+					res.render('dashboard', { title: 'Dashboard', user: req.user });
+				}
+			});
 		});
 
 	app.route('/library')
 		.get(isLoggedIn, function (req, res) {
 			res.render('library', { title: 'Library', user: req.user });
-			// res.sendFile(path + '/public/profile.html');
 		});
 
 	app.route('/settings')
@@ -55,9 +64,31 @@ module.exports = function (app, passport) {
 			res.render('settings', { title: 'Profile Settings', user: req.user });
 		});
 
-	app.route('/api/:id')
+	app.route('/api/user')
 		.get(isLoggedIn, function (req, res) {
 			res.json(req.user.github);
+		});
+
+	app.route('/api/user/books/delete')
+		.get(isLoggedIn, function (req, res) {
+			if (req.query.id) {
+				Users.update({ _id: req.user._id }, { $pull: { books: { _id: req.query.id } } }, function (err, obj) {
+					if (err) { throw err };
+					res.redirect('/dashboard');
+				});
+			} else {
+				res.redirect('/dashboard');
+			}
+		});
+
+	app.route('/api/books/add')
+		.post(isLoggedIn, [check('bookTitle').exists()], bookController.addBook, function(req, res) {
+			res.redirect('/dashboard');
+		});
+
+	app.route('/api/trades/all')
+		.get(isLoggedIn, function (req, res) {
+			res.json({ items: null });
 		});
 
 	app.route('/auth/github')

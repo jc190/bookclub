@@ -1,6 +1,6 @@
-form.form-inline
+form.form-inline(action='http://localhost:8080/api/books/add' method='post' onsubmit='document.getElementById(\'addBookBtn\').disabled = true;')
   .form-group.mr-2
-    label(for='addNewBook')
-    input(type='text' class='form-control' placeholder='Add a new book')
-  button.btn.btn-primary(type='submit')
-    | Add
+    label(for='bookTitle')
+    input(type='text' class='form-control' placeholder='Add a new book' name='bookTitle')
+  button#addBookBtn.btn.btn-primary(type='submit')
+    | Add Book
